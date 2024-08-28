@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.js"
+      ],
+      "customSyntax": "postcss-lit"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+/dist/**
+/public/*
+/stc/assets/*
+/node_modules/**

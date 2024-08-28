@@ -1,0 +1,7 @@
+.idea
+node_modules/**
+
+**/*.svg
+**/*.sh
+/public/*
+/src/assets/*
