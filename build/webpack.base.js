@@ -13,7 +13,7 @@ module.exports = {
   cache: {
     type: 'filesystem' // 使用文件缓存
   },
-  entry: path.join(__dirname, '../src/index.js'), // 入口文件
+  entry: path.join(__dirname, '../src/main.js'), // 入口文件
   // 打包出口文件
   output: {
     filename: 'static/js/[name].[chunkhash:8].js', // 每个输出js的名称

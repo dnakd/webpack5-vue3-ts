@@ -1,8 +1,5 @@
 <template>
-  <div class="app">
-
+  <div>
+    <h1>你好</h1>
   </div>
 </template>
-<style scoped>
-
-</style>

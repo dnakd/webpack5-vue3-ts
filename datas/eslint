@@ -1,0 +1,4 @@
+npm install eslint --save-dev
+npx eslint --init
+npm install eslint-plugin-vue --save-dev
+npm install lint-staged husky --save-dev
