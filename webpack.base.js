@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ESLintWebpackPlugin = require('eslint-webpack-plugin');
-
+const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 function isDevelopment() {
   return process.env.NODE_ENV === 'development';
 }
@@ -76,6 +76,9 @@ module.exports = {
       cache: true, // 启用缓存，提高检查性能
       exclude: 'node_modules/**', // 排除的目录
       failOnError: true // 如果有错误则使构建失败
+    }),
+    new ProgressBarPlugin({
+      complete: '|'
     })
   ], // vue-loader插件
   resolve: {
