@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+#npm test
+#.husky/pre-commit修改提交前钩子命令 --allow-empty:表示即使没有变更的文件，脚本也可以运行。
+npm run lint:lint-staged

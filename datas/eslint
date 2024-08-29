@@ -2,3 +2,10 @@ npm install eslint --save-dev
 npx eslint --init
 npm install eslint-plugin-vue --save-dev
 npm install lint-staged husky --save-dev
+
+husky
+前提条件 项目有.git 如果没有需要生成
+git init
+自动配置husky
+npx husky-init
+
