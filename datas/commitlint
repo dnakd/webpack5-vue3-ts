@@ -1,0 +1,14 @@
+npm install --save-dev @commitlint/config-conventional @commitlint/cli
+
+module.exports = {
+  extends: ['@commitlint/config-conventional'],
+};
+
+npm install --save-dev husky
+
+package.json文件中添加配置
+"husky": {
+  "hooks": {
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  }
+}

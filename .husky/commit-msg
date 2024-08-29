@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+#执行下面命令生成 commint-msg 钩子用于 git 提交信息校验
+npx --no-install commitlint --edit "$1"

@@ -1,0 +1,3 @@
+npm run build:dev
+serve -s dist
+npm i progress-bar-webpack-plugin -D

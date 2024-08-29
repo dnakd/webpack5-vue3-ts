@@ -1,0 +1,2 @@
+vue-loader was used without the corresponding plugin.  Make sure to include VueLoaderPlugin in your webpack config.
+【解决】：vue-loader的VueLoaderPlugin好像不能使用speed-measure-webpack-plugin监听，所以只要去除后，vue-loader才能正常解析
