@@ -17,5 +17,4 @@ jobs:
         - name: 部署
           uses: JamesIves/github-pages-deploy-action@v4
           with:
-            access_token: ${{secrets.GH_PAT}}
             folder: build
